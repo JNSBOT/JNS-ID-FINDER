@@ -10,7 +10,7 @@ class Data:
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
             START += (
-                f"\n\n**My Owner :-** [{Config.OWNER_NAME}](tg://user?id={Config.OWNER_ID}) \n@JNS_BOTS🎊"
+                f"\n\n**My Owner :-** [{Config.OWNER_NAME}](tg://user?id={Config.OWNER_ID}) \n\n@JNS_BOTS🎊"
             )
         else:
             print(
