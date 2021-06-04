@@ -1,9 +1,5 @@
 # The ID Bot
 
-> A star ⭐ from you means a lot to us!
-
-<p align="center"><a href="https://www.github.com/MysteryBots/ID-Bot"><img src="https://telegra.ph/file/784c14c76533f944ae9b0.jpg" width="5000"></a></p>
-
 Telegram bot to give id of any user, group,bot, channels and even stickers.
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
