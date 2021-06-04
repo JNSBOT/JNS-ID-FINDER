@@ -9,7 +9,7 @@ async def id(idbot, msg):
 		await msg.reply(f"This {msg.chat.type}'s ID is `{msg.chat.id}`")
 	else:
 		if len(msg.command) == 1:
-			await msg.reply(f"Your Telegram ID is: `{msg.from_user.id}`", quote=True)
+			await msg.reply(f"💃Your Telegram ID is: `{msg.from_user.id}`", quote=True)
 		if len(msg.command) == 2:
 			try:
 				uname = msg.command[1]
