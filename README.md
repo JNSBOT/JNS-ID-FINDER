@@ -39,7 +39,7 @@ Telegram bot to give id of any user, group,bot, channels and even stickers.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MysteryBots/ID-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/JNSBOT/JNS-ID-FINDER)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`. Alternatively fill `OWNER_ID` and `OWNER_NAME`.
    (Note : Fill both or leave both unless bot won't work.) 
