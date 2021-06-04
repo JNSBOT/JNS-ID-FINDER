@@ -41,7 +41,7 @@ class Data:
     HELP = "**Help & Features** \n\n 🔸Send any message to get your ID. \n🔹 Forward any message from any user/bot/channel or anonymous admins to get ID. \n🔸 Send any sticker to get sticker id. \n🔹 Use Inline Mode to send your ID in any chat. \n Add in group / channel to get ID. \n🔹 Use /id command: \n- in private: To get ID through username \n- in group/channel: To get ID of that chat. \n\nBy @JNS_BOTS ♥"
 
     # Deploy Message
-    DEPLOY = '**Wanna create your own such bot??** \n\nThis is simple and open source bot. \nJust click below on source code and tap on "Deploy to Heroku" to create your own bot. \n\nClick Here for [Source Code](https://github.com/MysteryBots/ID-Bot)'
+    DEPLOY = '**MOVIE CHANNEL** \n @FCfilmcornerfc \n\n**DEV**\n@jintons \n\n**BOT SUPPORT** \n@JNS_FC_BOTS'
 
     # Home Button
     home_button = [[InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]]
@@ -52,7 +52,7 @@ class Data:
             InlineKeyboardButton("✌ How to Use ✌", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about"),
         ],
-        [InlineKeyboardButton("Create your own bot", callback_data="deploy")],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
+        [InlineKeyboardButton("🤭KNOW MORE🤭", callback_data="deploy")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/JNS_BOTS")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/JNS_FC_BOTS")],
     ]
