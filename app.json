@@ -1,5 +1,5 @@
 {
-  "name": "The ID Bot",
+  "name": "JNS ID FINDER",
   "description": "Telegram bot to give id of any user, group, bot, channels and even stickers.",
   "logo": "https://telegra.ph/file/1a9c62a5fd9d764ab3d0e.jpg",
   "keywords": [
@@ -8,8 +8,8 @@
     "python",
     "pyrogram"
   ],
-  "repository": "https://github.com/MysteryBots/ID-Bot",
-  "website": "https://telegram.dog/MysteryBots",
+  "repository": "https://github.com/JNSBOTS/JNS-ID-FINDER",
+  "website": "https://telegram.dog/jns_bots",
   "success_url": "www.mysteryxd.ml",
   "env": {
     "API_ID": {
