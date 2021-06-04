@@ -38,7 +38,7 @@ class Data:
             raise SystemExit
 
     # Help Message
-    HELP = "**Help & Features** \n\n 🔸Send any message to get your ID. \n🔹 Forward any message from any user/bot/channel or anonymous admins to get ID. \n🔸 Send any sticker to get sticker id. \n🔹 Use Inline Mode to send your ID in any chat. \n Add in group / channel to get ID. \n🔹 Use /id command: \n- in private: To get ID through username \n- in group/channel: To get ID of that chat. \n\nBy @JNS_BOTS ♥"
+    HELP = "**Help & Features** \n\n🔸Send any message to get your ID. \n🔹 Forward any message from any user/bot/channel or anonymous admins to get ID. \n🔸 Send any sticker to get sticker id. \n🔹 Use Inline Mode to send your ID in any chat. \n Add in group / channel to get ID. \n🔸 Use /id command: \n- in private: To get ID through username \n- in group/channel: To get ID of that chat. \n\nBy @JNS_BOTS ♥"
 
     # Deploy Message
     DEPLOY = '**MOVIE CHANNEL** \n @FCfilmcornerfc \n\n**DEV**\n@jintons \n\n**BOT SUPPORT** \n@JNS_FC_BOTS'
