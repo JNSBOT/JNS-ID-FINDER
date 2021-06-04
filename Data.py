@@ -10,7 +10,7 @@ class Data:
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
             START += (
-                f"\n\nMy Owner :- [{Config.OWNER_NAME}](tg://user?id={Config.OWNER_ID})"
+                f"\n\n***My Owner :-*** [{Config.OWNER_NAME}](tg://user?id={Config.OWNER_ID}) \n@JNS_BOTS🎊"
             )
         else:
             print(
@@ -19,8 +19,8 @@ class Data:
             print("Quitting the bot")
             raise SystemExit
     else:
-        START += f"\n\nBy @MysteryBots ♥"
-    START += "\n\nP.S ~ Your ID is `{}`"
+        START += f"\n\nBy @JNS_BOTS ♥"
+    START += "\n\n~ Your ID is `{}`"
 
     # About Message
     ABOUT = "**About This Bot** \n\nThis is an open source ID bot by @MysteryBots \n\nSource : [Click Here](https://github.com/MysteryBots/ID-Bot) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Mყʂƚҽɾყ Bσყ](https://t.me/MysteryxD)"
