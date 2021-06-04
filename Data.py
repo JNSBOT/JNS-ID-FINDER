@@ -5,12 +5,12 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = "Hey {}. \n\nWelcome to {} \n\nUsing this bot you can check id of any group, user, bot, channel and even stickers."
+    START = "Hey {}. \n\nWelcome to JNS Family 🎊🎉 \n\nUsing this bot you can check id of any group, user, bot, channel and even stickers."
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
             START += (
-                f"\n\n***My Owner :-*** [{Config.OWNER_NAME}](tg://user?id={Config.OWNER_ID}) \n@JNS_BOTS🎊"
+                f"\n\n**My Owner :-** [{Config.OWNER_NAME}](tg://user?id={Config.OWNER_ID}) \n@JNS_BOTS🎊"
             )
         else:
             print(
