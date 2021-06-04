@@ -8,12 +8,12 @@ async def answer(idbot, inline_query):
 	await inline_query.answer(
 		results=[
 			InlineQueryResultArticle(
-				title=f"Your Telegram ID is {inline_query.from_user.id}",
+				title=f"💃Your Telegram ID is {inline_query.from_user.id}",
 				input_message_content=InputTextMessageContent(
-					f"My Telegram ID is `{inline_query.from_user.id}`"
+					f"🥳My Telegram ID is `{inline_query.from_user.id}`"
 				),
 				description="Tap to send your ID to current chat",
-				thumb_url="https://telegra.ph/file/784c14c76533f944ae9b0.jpg",
+				thumb_url="https://telegra.ph/file/1a9c62a5fd9d764ab3d0e.jpg",
 			)
 		],
 		cache_time=1,
