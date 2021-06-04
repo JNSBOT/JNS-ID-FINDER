@@ -7,9 +7,9 @@ async def forwarded(idbot, msg):
     if msg.forward_from:
         text = "**Forward detected!💪** \n\n"
         if msg.forward_from["is_bot"]:
-            text += "**Bot**"
+            text += "**🤖Bot🤖**"
         else:
-            text += "**User**"
+            text += "**👤User👤**"
         text += f'\n{msg.forward_from["first_name"]} \n'
         if msg.forward_from["username"]:
             text += f'@{msg.forward_from["username"]} \nID : `{msg.forward_from["id"]}`'
@@ -26,9 +26,9 @@ async def forwarded(idbot, msg):
         else:
             text = f"Forward Detected. \n\n"
             if msg.forward_from_chat["type"] == "channel":
-                text += "**Channel**"
+                text += "**👥Channel👥**"
             if msg.forward_from_chat["type"] == "supergroup":
-                text += "**Group**"
+                text += "**👥Group👥**"
             text += f'\n{msg.forward_from_chat["title"]} \n'
             if msg.forward_from_chat["username"]:
                 text += f'@{msg.forward_from_chat["username"]} \n'
