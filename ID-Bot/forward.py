@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 @Client.on_message(filters.private & filters.forwarded)
 async def forwarded(idbot, msg):
     if msg.forward_from:
-        text = "Forward detected! \n\n"
+        text = "**Forward detected!💪** \n\n"
         if msg.forward_from["is_bot"]:
             text += "**Bot**"
         else:
