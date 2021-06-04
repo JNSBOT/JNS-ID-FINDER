@@ -38,7 +38,7 @@ class Data:
             raise SystemExit
 
     # Help Message
-    HELP = "**Help & Features** \n\n1) Send any message to get your ID. \n2) Forward any message from any user/bot/channel or anonymous admins to get ID. \n3) Send any sticker to get sticker id. \n4) Use Inline Mode to send your ID in any chat. \n5) Add in group / channel to get ID. \n6) Use /id command: \n- in private: To get ID through username \n- in group/channel: To get ID of that chat. \n\nBy @MysteryBots ♥"
+    HELP = "**Help & Features** \n\n 🔸Send any message to get your ID. \n🔹 Forward any message from any user/bot/channel or anonymous admins to get ID. \n🔸 Send any sticker to get sticker id. \n🔹 Use Inline Mode to send your ID in any chat. \n Add in group / channel to get ID. \n🔹 Use /id command: \n- in private: To get ID through username \n- in group/channel: To get ID of that chat. \n\nBy @JNS_BOTS ♥"
 
     # Deploy Message
     DEPLOY = '**Wanna create your own such bot??** \n\nThis is simple and open source bot. \nJust click below on source code and tap on "Deploy to Heroku" to create your own bot. \n\nClick Here for [Source Code](https://github.com/MysteryBots/ID-Bot)'
